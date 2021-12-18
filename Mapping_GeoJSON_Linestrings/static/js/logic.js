@@ -34,10 +34,10 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
         
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/majorAirports.json";
+// let airportData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/majorAirports.json";
 
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/torontoRoutes.json";
+let torontoData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/majorAirports.json";
         
 // Create a style for the lines.
 let myStyle = {
@@ -61,22 +61,4 @@ L.geoJSON(data, {
         
 // Then we add our 'graymap' tile layer to the map.
 light.addTo(map);
-        
-        
-        
-// // Get data from cities.js
-// let cityData = cities;
-        
-        
-// // Loop through the cities array and create one marker for each city.
-// cityData.forEach(function(city) {
-//     console.log(city)
-//     L.circleMarker(city.location, {
-//         color: "orange",
-//         fillColor: "orange",
-//         radius: city.population/100000
-//     })
-//     .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
-//   .addTo(map);
-// });
         
