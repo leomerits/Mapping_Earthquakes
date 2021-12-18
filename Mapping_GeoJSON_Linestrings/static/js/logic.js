@@ -33,11 +33,8 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
         
-// Accessing the airport GeoJSON URL
-// let airportData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/majorAirports.json";
-
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/majorAirports.json";
+let torontoData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/Mapping_GeoJSON_Linestrings/static/js/torontoRoutes.json";
         
 // Create a style for the lines.
 let myStyle = {
