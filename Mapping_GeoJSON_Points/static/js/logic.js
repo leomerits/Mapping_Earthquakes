@@ -1,5 +1,5 @@
 // // Add console.log to check to see if our code is working.
-// console.log("working");
+console.log("working");
 
 // // Create the map object with center and zoom level.
 // let map = L.map('mapid').setView([30, 30], 2);
@@ -69,7 +69,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/<GitHub_name>/Mapping_Earthquakes/main/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/leomerits/Mapping_Earthquakes/main/majorAirports.json";
 
 // Grabbing our GeoJSON data.
 d3.json(airportData).then(function(data) {
