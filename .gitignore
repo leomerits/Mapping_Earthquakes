@@ -11,6 +11,9 @@ config,js
 # API_KEY
 config.js 
 
+# Config files
+config.js
+
 # Distribution / packaging
 .Python
 build/
