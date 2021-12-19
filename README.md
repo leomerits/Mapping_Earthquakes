@@ -4,10 +4,13 @@ The overview of this project is to tell stories with data through the use of int
 
 # Resources:
 - Data Source: challenge_logic.js,GeoJSON/PB2002_boundaries.json.
-- Software: VS code, Javascript, JSON. 
+- Software: VS code, Javascript, GeoJSON. 
 
 # Results:
-
+We were able create different branches that were finally all merged to the main branch. With the use of geographical features, we were able to obtain; 
+- Point, which contains addresses and locations, like latitude and longitude coordinates, 
+- Linestrings which contain coordinates for the boundaries of streets, highways, travel routes, and techno plates, 
+- Polygons, which contains coordinates for boundaries of zip codes, counties, countries, provinces, and tracks of land
 # Images:
 ![Map_Dark_Views](https://user-images.githubusercontent.com/34757498/146666927-37b8eeb5-4d9d-4b08-b94e-73c7bf064d21.png)
 
